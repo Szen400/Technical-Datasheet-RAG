@@ -1,0 +1,48 @@
+# TECHNICAL DATASHEET: QUINT4-PS/1AC/24DC/20
+# Industrial Power Supply Unit - Primary-Switched with SFB Technology
+
+## 1. Overview & General Description
+The QUINT4-PS/1AC/24DC/20 is a primary-switched power supply unit designed for DIN rail mounting in industrial automation cabinets. It delivers a regulated output of 24 V DC at up to 20 A nominal current, featuring Selective Fuse Breaking (SFB) Technology and dynamic boost capabilities to ensure high system availability.
+
+## 2. Input Specifications
+- Nominal Input Voltage Range: 100 V AC ... 240 V AC
+- AC Input Voltage Range: 85 V AC ... 264 V AC
+- DC Input Voltage Range: 90 V DC ... 350 V DC
+- Frequency Range: 50 Hz ... 60 Hz (+/- 10%)
+- Nominal Current Consumption: 5.6 A (120 V AC) / 2.7 A (230 V AC)
+- Inrush Current: < 16 A (typical)
+- Input Protection: Internal 6.3 A slow-blow fuse (integrated)
+- Recommended Backup Circuit Breaker: 10 A or 16 A, Characteristic B or C
+
+## 3. Output Specifications
+- Nominal Output Voltage: 24 V DC
+- Output Voltage Setting Range: 24 V DC ... 29.5 V DC (adjustable via front potentiometer or NFC)
+- Nominal Output Current (I_N): 20 A (continuous at -25°C to +60°C)
+- Static Boost (I_Stat): 25 A (continuous up to +40°C)
+- Dynamic Boost (I_Dyn): 30 A (for 5 seconds during heavy capacitive load startup)
+- SFB Technology Surge Current: 120 A (for 20 ms to trip standard miniature circuit breakers)
+- Residual Ripple: < 30 mV_PP
+- Efficiency: > 94.0% (at 230 V AC nominal load)
+- Maximum Power Dissipation (No Load): < 5 W
+- Maximum Power Dissipation (Nominal Load): < 28 W
+
+## 4. Environmental and Ambient Conditions
+- Degree of Protection: IP20 (according to IEC 60529)
+- Protection Class: Class I (with PE connection)
+- Ambient Operating Temperature: -25°C ... +70°C (derating > 60°C: 2.5% per Kelvin)
+- Storage / Transport Temperature: -40°C ... +85°C
+- Maximum Permissible Humidity: <= 95% at +25°C (non-condensing)
+- Overvoltage Category: III (<= 2000 m altitude), II (up to 4000 m altitude)
+- MTBF (Mean Time Between Failures): > 1,250,000 hours (at +25°C, according to IEC 61709)
+
+## 5. Signaling and Diagnostic Interfaces
+- Preventive Function Monitoring: DC OK relay contact (floating output: 30 V AC/DC, 100 mA)
+- Visual Status Indicator: Multi-color diagnostic LED (Green = OK, Flashing = Boost active, Red = Overload/Failure)
+- Digital Output: Configurable active switching output (OUT 1, 24 V DC, max 20 mA)
+- Analog Output: 4-20 mA current loop for continuous load monitoring
+
+## 6. Safety, Standards and Approvals
+- Electrical Safety: EN 61010-1, EN 61010-2-201
+- Galvanic Isolation: Safe isolation according to DIN VDE 0100-410 and EN 50178 (SELV / PELV)
+- Electromagnetic Compatibility (EMC): Immunity according to EN 61000-6-2 (Industrial areas); Emission according to EN 61000-6-4 (Class A)
+- Certifications: CE, UL Listed (UL 508), UL Recognized (UL 60950-1), RoHS compliant
