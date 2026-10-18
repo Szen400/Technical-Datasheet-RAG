@@ -84,8 +84,8 @@ technical-datasheet-rag/
 Using standard Python `venv`:
 
 ```bash
-git clone https://github.com/yourusername/technical-datasheet-rag.git
-cd technical-datasheet-rag
+git clone https://github.com/Szen400/Technical-Datasheet-RAG.git
+cd Technical-Datasheet-RAG
 
 python -m venv .venv
 
